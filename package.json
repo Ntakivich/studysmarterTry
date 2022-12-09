@@ -1,0 +1,30 @@
+{
+  "name": "studysmartertry",
+  "version": "1.0.0",
+  "description": "Automation scripts using Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:test_chrome": "cypress run --browser chrome",
+    "cypress:test_fireFox": "cypress run --browser firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ntakivich/studysmarterTry.git"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Nikita Klimovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ntakivich/studysmarterTry/issues"
+  },
+  "homepage": "https://github.com/Ntakivich/studysmarterTry#readme",
+  "devDependencies": {
+    "cypress": "^12.0.2"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.7.4"
+  }
+}
