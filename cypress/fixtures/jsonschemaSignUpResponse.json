@@ -1,0 +1,579 @@
+{
+    "definitions": {
+        "Welcome4": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "tutorial": {
+                    "$ref": "#/definitions/Tutorial"
+                },
+                "tutorialwebapp": {
+                    "type": "object",
+                    "additionalProperties": {
+                        "type": "integer"
+                    }
+                },
+                "settings": {
+                    "$ref": "#/definitions/Settings"
+                },
+                "user": {
+                    "$ref": "#/definitions/User"
+                },
+                "image": {
+                    "type": "string"
+                },
+                "university": {
+                    "type": "string"
+                },
+                "course_of_studies": {
+                    "type": "string"
+                },
+                "birthday": {
+                    "type": "null"
+                },
+                "language": {
+                    "type": "string"
+                },
+                "ref_id": {
+                    "type": "string"
+                },
+                "signups_generated": {
+                    "type": "integer"
+                },
+                "is_premium": {
+                    "type": "boolean"
+                },
+                "user_type": {
+                    "type": "string"
+                },
+                "last_notified": {
+                    "type": "null"
+                },
+                "community_username": {
+                    "type": "null"
+                },
+                "total_ects": {
+                    "type": "integer"
+                },
+                "planned_grade_remaining_studies": {
+                    "type": "null"
+                },
+                "studyfield": {
+                    "type": "null"
+                },
+                "studyfield_name": {
+                    "type": "null"
+                },
+                "is_professor": {
+                    "type": "boolean"
+                },
+                "country": {
+                    "type": "integer"
+                },
+                "state": {
+                    "type": "null"
+                },
+                "city": {
+                    "type": "null"
+                },
+                "random_number": {
+                    "type": "number"
+                },
+                "testgroups": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Testgroup"
+                    }
+                },
+                "cost_factor": {
+                    "type": "string"
+                },
+                "used_platforms": {
+                    "type": "integer"
+                },
+                "degree": {
+                    "type": "null"
+                },
+                "gender": {
+                    "type": "null"
+                },
+                "ads_disabled": {
+                    "type": "boolean"
+                },
+                "used_free_trial": {
+                    "type": "null"
+                },
+                "email_confirmed": {
+                    "type": "boolean"
+                },
+                "allowed_offline_studysets_count": {
+                    "type": "integer"
+                },
+                "allowed_offline_subjects_count": {
+                    "type": "integer"
+                },
+                "class_level": {
+                    "type": "null"
+                },
+                "maintopics": {
+                    "type": "array",
+                    "items": {}
+                },
+                "platform": {
+                    "type": "string"
+                },
+                "school_type": {
+                    "type": "null"
+                },
+                "user_group": {
+                    "type": "integer"
+                },
+                "tracking_number": {
+                    "type": "integer"
+                },
+                "timezone": {
+                    "type": "null"
+                },
+                "notification_time_slot": {
+                    "type": "null"
+                },
+                "skip_email_password": {
+                    "type": "boolean"
+                },
+                "recordings": {
+                    "type": "array",
+                    "items": {}
+                },
+                "no_monetization": {
+                    "type": "boolean"
+                },
+                "study_start_year": {
+                    "type": "null"
+                },
+                "detected_country": {
+                    "type": "integer"
+                },
+                "feature_groups": {
+                    "type": "array",
+                    "items": {}
+                },
+                "enable_dom_recording": {
+                    "type": "boolean"
+                },
+                "is_pupil": {
+                    "type": "boolean"
+                },
+                "user_intent": {
+                    "type": "null"
+                },
+                "subjects": {
+                    "type": "array",
+                    "items": {}
+                },
+                "unified_subjects": {
+                    "type": "array",
+                    "items": {}
+                },
+                "exams": {
+                    "type": "array",
+                    "items": {}
+                },
+                "default_languages": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "beta_user_status": {
+                    "type": "null"
+                },
+                "beta_user_status_updated": {
+                    "type": "null"
+                },
+                "search_history": {
+                    "type": "null"
+                },
+                "preferred_devices": {
+                    "type": "null"
+                },
+                "sr_review_available": {
+                    "type": "boolean"
+                },
+                "unlocked_studyset_ids": {
+                    "type": "null"
+                },
+                "content_language_preferences": {
+                    "type": "array",
+                    "items": {}
+                },
+                "jobboard_redirection_url": {
+                    "type": "string"
+                },
+                "partner_page_home_url": {
+                    "type": "string"
+                },
+                "unlocked_subject_ids": {
+                    "type": "null"
+                },
+                "returning_user": {
+                    "type": "boolean"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "state_name": {
+                    "type": "null"
+                },
+                "school_type_name": {
+                    "type": "null"
+                }
+            },
+            "required": [
+                "ads_disabled",
+                "allowed_offline_studysets_count",
+                "allowed_offline_subjects_count",
+                "beta_user_status",
+                "beta_user_status_updated",
+                "birthday",
+                "city",
+                "class_level",
+                "community_username",
+                "content_language_preferences",
+                "cost_factor",
+                "country",
+                "course_of_studies",
+                "default_languages",
+                "degree",
+                "detected_country",
+                "email_confirmed",
+                "enable_dom_recording",
+                "exams",
+                "feature_groups",
+                "gender",
+                "id",
+                "image",
+                "is_premium",
+                "is_professor",
+                "is_pupil",
+                "jobboard_redirection_url",
+                "language",
+                "last_notified",
+                "maintopics",
+                "no_monetization",
+                "notification_time_slot",
+                "partner_page_home_url",
+                "planned_grade_remaining_studies",
+                "platform",
+                "preferred_devices",
+                "random_number",
+                "recordings",
+                "ref_id",
+                "returning_user",
+                "school_type",
+                "school_type_name",
+                "search_history",
+                "settings",
+                "signups_generated",
+                "skip_email_password",
+                "sr_review_available",
+                "state",
+                "state_name",
+                "study_start_year",
+                "studyfield",
+                "studyfield_name",
+                "subjects",
+                "testgroups",
+                "timezone",
+                "token",
+                "total_ects",
+                "tracking_number",
+                "tutorial",
+                "tutorialwebapp",
+                "unified_subjects",
+                "university",
+                "unlocked_studyset_ids",
+                "unlocked_subject_ids",
+                "used_free_trial",
+                "used_platforms",
+                "user",
+                "user_group",
+                "user_intent",
+                "user_type"
+            ],
+            "title": "Welcome4"
+        },
+        "Settings": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "flashcard_order": {
+                    "type": "integer"
+                },
+                "flashcard_only_own": {
+                    "type": "boolean"
+                },
+                "flashcard_filter": {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                "slides_filter": {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                "slides_marking_mode": {
+                    "type": "boolean"
+                },
+                "slides_zoom": {
+                    "type": "integer"
+                },
+                "animate_flashcard": {
+                    "type": "boolean"
+                },
+                "marking_target": {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                "screenshot_target": {
+                    "type": "array",
+                    "items": {
+                        "type": "boolean"
+                    }
+                },
+                "textmarking_color": {
+                    "type": "integer"
+                },
+                "disable_hotjar": {
+                    "type": "boolean"
+                },
+                "flashcard_ad_offset": {
+                    "type": "integer"
+                },
+                "flashcard_ad_interval": {
+                    "type": "integer"
+                },
+                "all_flashcards_show_answers": {
+                    "type": "boolean"
+                },
+                "flashcard_creator_mode": {
+                    "type": "string",
+                    "format": "boolean"
+                },
+                "download_via_mobile_network": {
+                    "type": "boolean"
+                },
+                "synchronize_documents": {
+                    "type": "boolean"
+                },
+                "only_self_applied_tags": {
+                    "type": "boolean"
+                },
+                "document_ad_interval": {
+                    "type": "integer"
+                },
+                "document_ad_large": {
+                    "type": "boolean"
+                },
+                "learning_plan_enabled": {
+                    "type": "boolean"
+                },
+                "flashcard_quiz_quantity": {
+                    "type": "integer"
+                },
+                "sr_flashcards_per_cycle_quantity": {
+                    "type": "integer"
+                },
+                "appuser": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "all_flashcards_show_answers",
+                "animate_flashcard",
+                "appuser",
+                "disable_hotjar",
+                "document_ad_interval",
+                "document_ad_large",
+                "download_via_mobile_network",
+                "flashcard_ad_interval",
+                "flashcard_ad_offset",
+                "flashcard_creator_mode",
+                "flashcard_filter",
+                "flashcard_only_own",
+                "flashcard_order",
+                "flashcard_quiz_quantity",
+                "id",
+                "learning_plan_enabled",
+                "marking_target",
+                "only_self_applied_tags",
+                "screenshot_target",
+                "slides_filter",
+                "slides_marking_mode",
+                "slides_zoom",
+                "sr_flashcards_per_cycle_quantity",
+                "synchronize_documents",
+                "textmarking_color"
+            ],
+            "title": "Settings"
+        },
+        "Testgroup": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "value": {
+                    "type": "integer"
+                },
+                "appuser": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "appuser",
+                "id",
+                "name",
+                "value"
+            ],
+            "title": "Testgroup"
+        },
+        "Tutorial": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": {
+                    "type": "integer"
+                },
+                "m_feed": {
+                    "type": "boolean"
+                },
+                "m_studysets": {
+                    "type": "boolean"
+                },
+                "m_open_studyset": {
+                    "type": "boolean"
+                },
+                "m_studyset_functions": {
+                    "type": "boolean"
+                },
+                "m_webapp": {
+                    "type": "boolean"
+                },
+                "m_flashcard_overview": {
+                    "type": "boolean"
+                },
+                "m_flashcard_detail": {
+                    "type": "boolean"
+                },
+                "m_document_overview": {
+                    "type": "boolean"
+                },
+                "m_document_viewer": {
+                    "type": "boolean"
+                },
+                "m_qna": {
+                    "type": "boolean"
+                },
+                "m_statistics": {
+                    "type": "boolean"
+                },
+                "m_create_flashcard": {
+                    "type": "boolean"
+                },
+                "m_goals": {
+                    "type": "boolean"
+                },
+                "m_goal_dialog": {
+                    "type": "boolean"
+                },
+                "m_uni_selection": {
+                    "type": "boolean"
+                },
+                "m_invite_friends": {
+                    "type": "boolean"
+                },
+                "m_invite_friends_first_redeem": {
+                    "type": "boolean"
+                },
+                "m_tron_viewer": {
+                    "type": "boolean"
+                },
+                "m_pupil_migration": {
+                    "type": "boolean"
+                },
+                "m_exam_date_cta": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "id",
+                "m_create_flashcard",
+                "m_document_overview",
+                "m_document_viewer",
+                "m_exam_date_cta",
+                "m_feed",
+                "m_flashcard_detail",
+                "m_flashcard_overview",
+                "m_goal_dialog",
+                "m_goals",
+                "m_invite_friends",
+                "m_invite_friends_first_redeem",
+                "m_open_studyset",
+                "m_pupil_migration",
+                "m_qna",
+                "m_statistics",
+                "m_studyset_functions",
+                "m_studysets",
+                "m_tron_viewer",
+                "m_uni_selection",
+                "m_webapp"
+            ],
+            "title": "Tutorial"
+        },
+        "User": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "first_name": {
+                    "type": "string"
+                },
+                "last_name": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "date_joined": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            },
+            "required": [
+                "date_joined",
+                "email",
+                "first_name",
+                "last_name",
+                "username"
+            ],
+            "title": "User"
+        }
+    }
+}

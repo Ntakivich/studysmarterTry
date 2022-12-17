@@ -6,6 +6,7 @@ Cypress.Commands.add('APILogIn', function (tokenRequestUrl, email, password, vis
         username: email,
         password: password
     }).then((response) => {
+        cy.log(response)
         window.localStorage.setItem('currentUser', JSON.stringify(response.body))
         cy.visit(visitUrl)
     })
